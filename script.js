@@ -1,6 +1,6 @@
 const data = {
     animals: [
-        { word: "Lion", image: "assets/images/animals/lion.png", audio: "assets/audios/animallion.mp3" },
+        { word: "Lion", image: "assets/images/animals/lion.png", audio: "assets/audios/animals/lion.mp3" },
         { word: "cat", image: "assets/images/animals/cat.png", audio: "assets/audios/animals/cat.mp3" },
         { word: "dog", image: "assets/images/animals/dog.png", audio: "assets/audios/animals/dog.mp3" },
         { word: "elephant", image: "assets/images/animals/elephant.png", audio: "assets/audios/animals/elephant.mp3" },
