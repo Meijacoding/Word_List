@@ -11,11 +11,22 @@
         <h1>English Vocabulary</h1>
         <nav>
             <ul>
-                <li><a href="#animals">Animals</a></li>
-                <li><a href="#fruits">Fruits</a></li>
-                <li><a href="#vehicles">Vehicles</a></li>
+                <li><a href="#" onclick="showCategory('animals')">Animals</a></li>
+                <li><a href="#" onclick="showCategory('fruits')">Fruits</a></li>
+                <li><a href="#" onclick="showCategory('vehicles')">Vehicles</a></li>
+                <li><a href="#" onclick="showCategory('colors')">Colors</a></li>
+                <li><a href="#" onclick="showCategory('clothing')">Clothing</a></li>
+                <li><a href="#" onclick="showCategory('bodyparts')">Body Parts</a></li>
+                <li><a href="#" onclick="showCategory('occupations')">Occupations</a></li>
+                <li><a href="#" onclick="showCategory('countries')">Countries</a></li>
+                <li><a href="#" onclick="showCategory('sports')">Sports</a></li>
+                <li><a href="#" onclick="showCategory('furniture')">Furniture</a></li>
             </ul>
         </nav>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search categories...">
+            <button onclick="searchCategories()">Search</button>
+        </div>
     </header>
 
     <main id="content">
